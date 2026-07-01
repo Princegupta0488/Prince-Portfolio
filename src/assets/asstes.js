@@ -2,7 +2,7 @@ import { FaCode, FaDesktop, FaMicrochip, FaMobile, FaReact, FaRProject, FaSchool
 import profileImg from '../assets/prince2.jpeg'
 import { FaProjectDiagram } from 'react-icons/fa'
 import expenseTracker from '../assets/ets.png'
-
+import princePortfolio from '../assets/pp.png'
 
 
 export const assets = {
@@ -47,25 +47,25 @@ export const projectData = [
     {
         title: 'Expense Tracker',
         description: 'Manage your daily income and expenses',
-        image: expenseTracker, expenseTracker, expenseTracker,
+        image: expenseTracker,
         tech: ['Streamlit', 'Python', 'MySQL']
     },
     {
-        title: 'FurniCraft',
-        description: 'A modern furniture e-commerce platform offering customizable home and office furniture .',
-        image: expenseTracker, expenseTracker, expenseTracker,
-        tech: ['React', 'Tailwindcss', 'Python']
+        title: 'Personal Portfolio Website',
+        description: 'A responsive portfolio website to showcase my work and skills.',
+        image: princePortfolio,
+        tech: ['React', 'Tailwindcss', 'Vite']
     },
     {
         title: 'Collaboration',
         description: 'A real-time collaborative platform for artists and designers to co-create digital art',
-        image: expenseTracker, expenseTracker, expenseTracker,
+        image: expenseTracker,
         tech: ['React', 'Tailwindcss', 'Python']
     },
     {
         title: 'Abmbivista',
         description: 'A mood-based interior design suggestion tool that uses AI',
-        image: expenseTracker, expenseTracker, expenseTracker,
+        image: expenseTracker,
         tech: ['Django', 'Tailwindcss', 'Python', 'Rest']
     }
 ]
