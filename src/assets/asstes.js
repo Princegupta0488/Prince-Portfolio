@@ -61,13 +61,13 @@ export const projectData = [
     {
         title: 'Collaboration',
         description: 'A real-time collaborative platform for artists and designers to co-create digital art',
-        images: [expenseTracker, expenseTracker, expenseTracker],
+        images: [ets1, ets2, ets3],
         tech: ['React', 'Tailwindcss', 'Python']
     },
     {
         title: 'Abmbivista',
         description: 'A mood-based interior design suggestion tool that uses AI',
-        images: [expenseTracker, expenseTracker, expenseTracker],
+        images: [ets1, ets2, ets3],
         tech: ['Django', 'Tailwindcss', 'Python', 'Rest']
     }
 ]
