@@ -48,7 +48,7 @@ export const skillsData = [
 export const projectData = [
     {
         title: 'Expense Tracker',
-        description: 'Manage your daily income and expenses',
+        description: 'A full-featured application that allows users to add, update, and view expenses by category, helping manage personal finances effectively.',
         images: [ets1, ets2, ets3],
         tech: ['Streamlit', 'Python', 'MySQL']
     },
