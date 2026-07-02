@@ -77,7 +77,7 @@ const Navbar = () => {
 
             {/* Mobile Resume (FIXED) */}
             <a
-              href="/Resume.jpeg"
+              href={resume}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 w-full bg-teal-500 hover:bg-teal-400 text-black font-semibold py-3 rounded-full flex items-center justify-center gap-2"
