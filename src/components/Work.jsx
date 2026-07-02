@@ -30,7 +30,8 @@ const Work = () => {
   useEffect(() => {
     const handleKey = (e) => {
       if (!activeProject) return;
-      if (e.key === "Escape") closeProject();
+
+      if (e.key === "Escape") closeModal();
       if (e.key === "ArrowRight") next();
       if (e.key === "ArrowLeft") prev();
     };
@@ -59,18 +60,20 @@ const Work = () => {
           {projectData.map((project, i) => (
             <div
               key={i}
-              className="group relative rounded-2xl overflow-hidden bg-gray-900 border border-gray-800 shadow-md hover:shadow-teal-500/10 transition-all duration-300 cursor-default"
+              onClick={() => openProject(project)}
+              className="group relative rounded-2xl overflow-hidden bg-gray-900 border border-gray-800 shadow-md hover:shadow-teal-500/10 transition-all duration-300 cursor-pointer"
             >
 
-              {/* Image */}
+              {/* MAIN IMAGE */}
               <div className="overflow-hidden">
                 <img
-                  src={project.image}
+                  src={project.images[0]}
                   className="h-56 w-full object-cover group-hover:scale-110 transition duration-500"
                 />
               </div>
 
-              {/* Content */}
+
+              {/* CONTENT */}
               <div className="p-5">
 
                 <h3 className="text-lg font-bold text-white group-hover:text-teal-400 transition">
@@ -112,7 +115,7 @@ const Work = () => {
             <FaTimes />
           </button>
 
-          {/* Image box */}
+          {/* IMAGE */}
           <div className="relative w-[92%] md:w-[65%]">
 
             <img
