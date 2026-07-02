@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { navMenu } from "../assets/asstes";
 import { FaBars, FaTimes, FaArrowRight } from "react-icons/fa";
+import resume from '../assets/Resume.jpeg'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -37,7 +38,7 @@ const Navbar = () => {
           {/* Resume Button (FIXED) */}
           <div className="hidden md:block">
             <a
-              href="/Resume.jpeg"
+              href={resume}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-teal-500 hover:bg-teal-400 text-black font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition duration-300 hover:scale-105"
@@ -76,7 +77,7 @@ const Navbar = () => {
 
             {/* Mobile Resume (FIXED) */}
             <a
-              href="/resume.pdf"
+              href="/Resume.jpeg"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 w-full bg-teal-500 hover:bg-teal-400 text-black font-semibold py-3 rounded-full flex items-center justify-center gap-2"
