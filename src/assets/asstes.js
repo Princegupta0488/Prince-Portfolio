@@ -1,10 +1,9 @@
 import { FaCode, FaDesktop, FaMicrochip, FaMobile, FaReact, FaRProject, FaSchool } from 'react-icons/fa6'
 import profileImg from '../assets/prince2.jpeg'
 import { FaProjectDiagram } from 'react-icons/fa'
-import ets1 from '../assets/ets1.png'
-import ets2 from '../assets/ets2.png'
-import ets3 from '../assets/ets3.png'
-import princePortfolio from '../assets/pp.png'
+import princep from '../assets/princep.png'
+import etsf from '../assets/etsf.png'
+
 
 
 export const assets = {
@@ -48,27 +47,27 @@ export const skillsData = [
 export const projectData = [
     {
         title: 'Expense Tracker',
-        description: 'A simple expense tracker to manage your daily expenses.',
-        images: [ets1, ets2, ets3],
-        tech: ['Streamlit', 'Python', 'MySQL']
+        description: 'Tracked daily expenses and visualized date-wise total spending with interactive bar graphs and reports.',
+        images: [etsf],
+        tech: ['Streamlit', 'Python', 'MySQL', 'FastAPI']
     },
     {
         title: 'Personal Portfolio Website',
-        description: 'A responsive portfolio website to showcase my work and skills.',
-        images: [princePortfolio, princePortfolio, princePortfolio],
+        description: 'Built a responsive portfolio with an attractive design to showcase my work and technical skills.',
+        images: [princep],
         tech: ['React', 'Tailwindcss', 'Vite']
     },
     {
-        title: 'Collaboration',
+        title: 'ShopEase - E-Commerce Website',
         description: 'A real-time collaborative platform for artists and designers to co-create digital art',
-        images: [ets1, ets2, ets3],
-        tech: ['React', 'Tailwindcss', 'Python']
+        images: [],
+        tech: ['React', 'Tailwindcss', 'Node.js', 'Express.js', 'MongoDB']
     },
     {
-        title: 'Abmbivista',
+        title: 'StayEase - Find & Book Your Perfect Stay',
         description: 'A mood-based interior design suggestion tool that uses AI',
-        images: [ets1, ets2, ets3],
-        tech: ['Django', 'Tailwindcss', 'Python', 'Rest']
+        images: [],
+        tech: ['Bootstrap', 'Node.js', 'Express.js', 'MongoDB']
     }
 ]
 
