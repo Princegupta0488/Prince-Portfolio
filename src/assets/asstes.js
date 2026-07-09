@@ -58,16 +58,16 @@ export const projectData = [
         tech: ['React', 'Tailwindcss', 'Vite']
     },
     {
-        title: 'ShopEase - E-Commerce Website',
-        description: 'A real-time collaborative platform for artists and designers to co-create digital art',
+        title: '',
+        description: '',
         images: [],
-        tech: ['React', 'Tailwindcss', 'Node.js', 'Express.js', 'MongoDB']
+        tech: ['']
     },
     {
-        title: 'StayEase - Find & Book Your Perfect Stay',
-        description: 'A mood-based interior design suggestion tool that uses AI',
+        title: '',
+        description: '',
         images: [],
-        tech: ['Bootstrap', 'Node.js', 'Express.js', 'MongoDB']
+        tech: ['']
     }
 ]
 
